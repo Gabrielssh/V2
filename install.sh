@@ -1,7 +1,7 @@
 #!/bin/sh
 apt update
 apt install unrar -y
-wget https://github.com/Gabrielssh/V2/blob/main/o11.rar
+wget https://github.com/Gabrielssh/V2/raw/main/o11.rar
 unrar x o11.rar /home
 chmod -R +x /home/o11/
 wget https://raw.githubusercontent.com/Gabrielssh/V2/refs/heads/main/o11.service
